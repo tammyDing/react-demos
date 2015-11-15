@@ -1,6 +1,6 @@
 class RepoList extends React.Component{
   constructor() {
-    super();
+    super(props);
     this.state= {
       loading: true,
       error: null,

@@ -84,7 +84,7 @@ getInitialState: function() {
 ```js
 //ES6
 constructor() {
-  super();
+  super(props);
   this.state= {
     liked:false
   }

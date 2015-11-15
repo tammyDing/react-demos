@@ -1,6 +1,6 @@
 class UserGist extends React.Component{
   constructor() {
-    super();
+    super(props);
     this.state= {
       username: '',
       lastGistUrl: ''

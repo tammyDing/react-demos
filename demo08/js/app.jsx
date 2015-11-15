@@ -1,6 +1,6 @@
 class LikeButton extends React.Component{
   constructor() {
-    super();
+    super(props);
     this.state= {
       liked:false
     }
