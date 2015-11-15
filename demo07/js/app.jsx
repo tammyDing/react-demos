@@ -7,7 +7,7 @@ class MyComponent extends React.Component{
     return (
       <div>
         <input type="text" ref="myTextInput" />
-        <input type="button" value="Focus the text input" onClick={(ev)=>{this.handleClick(ev)}} />
+        <input type="button" value="Focus the text input" onClick={ev=>{this.handleClick(ev)}} />
       </div>
     );
   }

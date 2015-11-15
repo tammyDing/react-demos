@@ -39,3 +39,66 @@ npm install http-server -g
 </body>
 </html>
 ```
+# Class
+```js
+//ES5
+var NotesList = React.createClass({
+  render: function() {
+    return (
+      <ol>
+        {
+          React.Children.map(this.props.children, function (child) {
+            return <li>{child}</li>;
+          })
+        }
+      </ol>
+    );
+  }
+});
+```
+
+```js
+//ES6
+class NotesList extends React.Component{
+  render(){
+    return (
+      <ol>
+        {
+          React.Children.map(this.props.children, function (child) {
+            return <li>{child}</li>;
+          })
+        }
+      </ol>
+    );
+  }
+}
+```
+# state
+```js
+//ES5
+getInitialState: function() {
+    return {liked: false};
+  }
+```
+
+```js
+//ES6
+constructor() {
+  super();
+  this.state= {
+    liked:false
+  }
+}
+```
+# isMounted
+ES6 is no support `this.isMounted()`
+
+# event
+```js
+//ES5
+<input type="text" value={value} onChange={this.handleChange} />
+```
+```js
+//ES6
+<input type="text" value={value} onChange={ev=>{this.handleChange(ev)}} />
+```

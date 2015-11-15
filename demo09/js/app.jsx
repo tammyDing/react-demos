@@ -12,7 +12,7 @@ class Input extends React.Component{
     var value = this.state.value;
     return (
       <div>
-        <input type="text" value={value} onChange={(ev)=>{this.handleChange(ev)}} />
+        <input type="text" value={value} onChange={ev=>{this.handleChange(ev)}} />
         <p>{value}</p>
       </div>
     );
