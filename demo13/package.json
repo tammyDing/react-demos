@@ -7,7 +7,7 @@
     "build": "babel -d . src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ruanyf",
+  "author": "zhuangtongfa",
   "license": "ISC",
   "dependencies": {
     "browserify": "~9.0.3",

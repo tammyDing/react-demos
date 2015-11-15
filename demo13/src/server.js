@@ -24,8 +24,8 @@ http.createServer(function(req, res) {
         <script dangerouslySetInnerHTML={{__html:
         'var APP_PROPS = ' + JSON.stringify(props) + ';'
         }}/>
-        <script src="//fb.me/react-0.14.0.min.js"/>
-        <script src="//fb.me/react-dom-0.14.0.min.js"/>
+        <script src="http://cdn.bootcss.com/react/0.14.2/react.min.js"/>
+        <script src="http://cdn.bootcss.com/react/0.14.2/react-dom.min.js"/>
         <script src="/bundle.js"/>
       </body>
     );

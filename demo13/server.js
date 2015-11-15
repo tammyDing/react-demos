@@ -21,8 +21,8 @@ http.createServer(function (req, res) {
         } }),
       React.createElement('script', { dangerouslySetInnerHTML: { __html: 'var APP_PROPS = ' + JSON.stringify(props) + ';'
         } }),
-      React.createElement('script', { src: '//fb.me/react-0.14.0.min.js' }),
-      React.createElement('script', { src: '//fb.me/react-dom-0.14.0.min.js' }),
+      React.createElement('script', { src: 'http://cdn.bootcss.com/react/0.14.2/react.min.js' }),
+      React.createElement('script', { src: 'http://cdn.bootcss.com/react/0.14.2/react-dom.min.js' }),
       React.createElement('script', { src: '/bundle.js' })
     ));
     res.end(html);
