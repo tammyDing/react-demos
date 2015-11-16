@@ -100,5 +100,5 @@ ES6 is no support `this.isMounted()`
 ```
 ```js
 //ES6
-<input type="text" value={value} onChange={ev=>{this.handleChange(ev)}} />
+<input type="text" value={value} onChange={e=>{this.handleChange(e)}} />
 ```
