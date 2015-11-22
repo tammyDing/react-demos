@@ -1,5 +1,5 @@
 class Hello extends React.Component{
-  constructor() {
+  constructor(props) {
     super(props);
     this.state= {
       opacity: 1.0

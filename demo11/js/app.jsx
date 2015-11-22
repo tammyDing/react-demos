@@ -1,5 +1,5 @@
 class UserGist extends React.Component{
-  constructor() {
+  constructor(props) {
     super(props);
     this.state= {
       username: '',
