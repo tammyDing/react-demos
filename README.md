@@ -73,7 +73,7 @@ class NotesList extends React.Component{
   }
 }
 ```
-# state
+# State
 ```js
 //ES5
 getInitialState: function() {
@@ -93,7 +93,7 @@ constructor(props) {
 # isMounted
 ES6 is no support `this.isMounted()`
 
-# event
+# Event
 ```js
 //ES5
 <input type="text" value={value} onChange={this.handleChange} />
