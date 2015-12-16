@@ -103,7 +103,7 @@ ES6 is no support `this.isMounted()`
 <input type="text" value={value} onChange={e=>{this.handleChange(e)}} />
 ```
 
-# this is also hava a  React-webpack-ES6 demo 
+# This is also hava a  React-webpack-ES6 demo
 [github](https://github.com/zhuangtongfa/react-webpack-ES6-demo)
 
-try it!
+Try it!
