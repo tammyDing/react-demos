@@ -8,7 +8,7 @@ This is a collection of simple demos of React.js for using ES6.
 [原github地址](https://github.com/ruanyf/react-demos)
 >你只需要跟着每一个 Demo 做一遍，就能初步掌握 React 。当然，前提是你必须拥有基本 JavaScript 和 DOM 知识，但是你读完就会发现，React 所要求的预备知识真的很少。
 
-![](http://zhuangtongfa.gitcafe.io/img/react.png)
+![](http://binaryify.github.io/images/react2.png)
 # How to use
 ```
 $ git clone git@github.com:zhuangtongfa/react-demos.git
