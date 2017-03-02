@@ -9,7 +9,7 @@ class Input extends React.Component{
     this.setState({value: event.target.value});
   }
   render(){
-    var value = this.state.value;
+    const value = this.state.value;
     return (
       <div>
         <input type="text" value={value} onChange={ev=>{this.handleChange(ev)}} />
