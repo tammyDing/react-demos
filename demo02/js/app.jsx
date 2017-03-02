@@ -1,4 +1,4 @@
-var names = ['Alice', 'Emily', 'Kate'];
+const names = ['Alice', 'Emily', 'Kate'];
 
 ReactDOM.render(
   <div>

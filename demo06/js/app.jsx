@@ -1,4 +1,4 @@
-var data = 123;
+const data = 123;
 class MyTitle extends React.Component{
   propTypes: {
     title: React.PropTypes.string.isRequired,

@@ -1,9 +1,4 @@
-var HelloMessage = React.createClass({
-  render() {
-    return <h1>Hello {this.props.name}</h1>;
-  }
-});
-
+const HelloMessage=({name})=><h1>Hello {name}</h1>
 ReactDOM.render(
   <HelloMessage name="John" />,
   document.getElementById('example')

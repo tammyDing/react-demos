@@ -20,8 +20,8 @@ class RepoList extends React.Component{
       return <span>Error: {this.state.error.message}</span>;
     }
     else {
-      var repos = this.state.data.items;
-      var repoList = repos.map(function (repo) {
+      const repos = this.state.data.items;
+      const repoList = repos.map(function (repo) {
         return (
           <li><a href={repo.html_url}>{repo.name}</a> ({repo.stargazers_count} stars) <br/> {repo.description}</li>
         );
