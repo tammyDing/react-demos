@@ -15,7 +15,7 @@ $ git clone git@github.com:zhuangtongfa/react-demos.git
 ```
 use `http-server` in the folder,open the '127.0.0.1:8080'
 
-# How to install http-server
+# How to install http-server 
 ```
 npm install http-server -g
 ```
